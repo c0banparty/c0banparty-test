@@ -22,8 +22,8 @@ RUN cd /usr/src && \
     ./configure --enable-optimizations && \
     make altinstall
 
-COPY . /e2e-test
-WORKDIR /e2e-test
+COPY . /c0banparty-test
+WORKDIR /c0banparty-test
 
 RUN npm install && \
     npm config set python /usr/local/bin/python2.7
