@@ -1,0 +1,17 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "bitcoin-core": "^2.0.0",
+    "bitcoinjs-lib-c0ban": "^0.0.2",
+    "jest": "^24.5.0"
+  }
+}
